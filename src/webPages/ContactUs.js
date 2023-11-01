@@ -88,10 +88,10 @@ const ContactUs = () => {
 
     </section>
     {/*<!---map start-->*/}
-<section class="pt-0 pb-2">
-    <div class="container-fluid px-0">
+<section className="pt-0 pb-2">
+    <div className="container-fluid px-0">
         
-            <div class="col-lg-12">
+            <div className="col-lg-12">
             <iframe title='maps' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121813.24014299481!2d78.3716641813469!3d17.42791695522511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91065c1d3e53%3A0x2d84d6e311a69e21!2sHyderabad%20IT%20Trainings!5e0!3m2!1sen!2sin!4v1637834062372!5m2!1sen!2sin" allowfullscreen="" loading="lazy" className='map'></iframe>
             </div>
      

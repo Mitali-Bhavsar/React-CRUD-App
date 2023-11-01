@@ -31,7 +31,7 @@ const AboutUs = () => {
                   return (
                     <div className="marquee" key={item.id}>
                        
-                       <marquee onmouseover="stop()" onmouseout="start()" scrollamount="7" direction="left">
+                       <marquee scrollamount="7" direction="left">
                     <p className=''>{item.name}{item.offer}</p>
                     </marquee>
                  </div>
