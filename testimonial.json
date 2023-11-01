@@ -1,0 +1,246 @@
+{
+  "testimonial": [
+    {
+      "id": 1,
+      "name": "Mohit Sharma",
+      "comment": "I recently found myself under your care for a cardiac issue. While there, accompanied by my wife, we found that the entire staff at Jamaica Hospital was exceedingly professional and efficient, from your E.R. receptionists to the cardiac care team. You should be proud of your outstanding staff and service."
+    },
+    {
+      "id": 2,
+      "name": "Reema Jain",
+      "comment": "On behalf of my wife, who was a patient in your hospital, I humbly submit my sincere gratitude to the management and staff of Jamaica Hospital, especially to your outstanding nurses and PCAs. They have been outstandingly helpful and provided a high quality of service, care and comfort to my wife. Thank you."
+    },
+    {
+      "id": 3,
+      "name": "Anmeet Reddy",
+      "comment": "I was recently cared for at Jamaica Hospital following a heart attack while at JFK. I just wanted to say a few words about the exceptional care I received in the Jamaica Hospital Cardiac Care Unit and the MICU. All of the doctors and nurses were friendly, pleasant, kind, thorough, conscientious and professional. I am happy to have been in their care."
+    },
+    {
+      "id": 4,
+      "name": "Manisha Patil",
+      "comment": "I recently had a nine day stay at Jamaica Hospital and I wanted to express how impressed I was with the level of care I received from everyone I encountered. The Trauma Center saved my life! I found it amazing and I am grateful that it services my community."
+    },
+    {
+      "id": 5,
+      "name": "Amica Thakre",
+      "comment": "I am writing on behalf of my brother who was a patient in your hospital. I would like to thank you on behalf of my entire family for the help and consideration shown to me in what was a very difficult time. Again, I would like to thank you for the services you provide to patients and their families."
+    },
+    {
+      "id": 6,
+      "name": "Richard",
+      "comment": "I recently had a nine day stay at Jamaica Hospital and I wanted to express how impressed I was with the level of care I received from everyone I encountered. The Trauma Center saved my life! I found it amazing and I am grateful that it services my community."
+    },
+    {
+      "id": 7,
+      "name": "Yuneli’s Mom and Dad",
+      "comment": "We would like to let you know how much we appreciate the special care our daughter was given by the doctors and staff at your hospital. Our baby’s physician was professional, kind, understanding, and her treatment was “right on.” Your organization should be proud to have such kind hearted people. They made sure that my daughter’s hospitalization was very pleasant."
+    },
+    {
+      "id": 8,
+      "name": "Kalyani Torane",
+      "comment": "My wife and I were recently heading to Florida. While on the jetway, my wife told me that she wasn’t feeling well and didn’t think we should get on the plane. We were eventually taken to Jamaica Hospital. From the moment she was wheeled through the doors of the emergency room, my fears were immediately put to rest. A courteous, compassionate and competent group of people immediately enveloped her in a cocoon of security. I would like to tell you that you should be extremely proud of your staff for the manner in which they treated a frightened pair of senior citizens."
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Medicine",
+      "icon": "/Images/serviceimg1.png",
+      "para1": "Several people are now choosing online medicine delivery in Hyderabad as they have access to the internet and technology. Not only is it easy and convenient, but it also saves a lot of time. In fast-growing cities like Hyderabad, where people are always on the run, they are constantly looking for hassle-free options and online medicine orders in Hyderabad are gaining demand and popularity.PharmEasy is a one-stop destination for all your medical needs. It allows you to buy medicine online in Hyderabad and other products, instead of having to step out and wait in long lines trying to locate the medicines and products you need. Online ordering offers you a smooth experience and is very useful and easy. Avail the quick method of searching for medicines and products you need in just a click. Hyderabad is a city with great connectivity and excellent infrastructure. Once you book online medicine delivery in Hyderabad, expect to receive it as fast as a missile.",
+      "para2": "When it comes to purchasing medicines, most customers are not willing to take any chances and only want an authentic and reliable source. PharmEasy is one of the most trusted online pharmacies, it offers 1 lakh+ medicine and health products across various categories. You can simply place an order on our website/app and we promise a super fast delivery! We assure you of safe transactions and the customer support service is available for you in case you need help with your order or have any questions for us such as how to order medicine online in Hyderabad. Here’s how you can reach out to us: Ordering medicines has never been simpler. Call Or visit our website www.pharmeasy.in and place the order. You can also download our app and order medicines through the Pharmeasy app."
+    },
+    {
+      "id": 2,
+      "name": " Dentistry",
+      "icon": "/Images/serviceimg2.jpg",
+      "para1": "We’re starting this list with one of our newest designs — Village Dental. This Denver-area practice has a lot to offer…from their lifetime warranty on dental work and free teeth whitening for life to a newly redesigned office and a 5-star patient experience. All this comes across in their gorgeous website.One of our favorite things about this website is all the high-quality professional images and video. We always recommend taking original photos and videos for your new website and this is a great example of why. A patient visiting this site will immediately understand who they’re working with, get a better feel of what to expect, and be more sure of their decision to book an appointment.The minimalist style and clean lines of this site is complemented with easy-to-read copy and vibrant, engaging images. All together, this site design creates a fun and easy experience for visitors and does a great job of driving potential patients to schedule an appointment.",
+      "para2": "Skyline Dental also features an excellent user experience, outlining everything a prospective patient might have questions about, including a simple 3-step process for getting started. And of course, take note of the site’s lightning-fast page load times, an embedded Google map, trust badges (logos of their affiliations and certifications) which help add authority, and keyword-optimized copy.A dental website that looks and feels like a modern art gallery? Look no further than Grand Street Dental in Brooklyn. Abstract shapes, beautiful photography, and calming colors help patients feel at ease from the moment they visit the website. But Grand Street Dental is about more than just appearances. The website offers online appointment booking, highlights recent press (including mentions in New York Magazine and Forbes), and simple navigation with the services offered, insurance information, and other details important to busy patients in NYC."
+    },
+    {
+      "id": 3,
+      "name": "Pharmacy",
+      "icon": "/Images/serviceimg3.png",
+      "para1": "We have the experts, the services and the technology you need to manage every last detail of your pharmacy. From pharmacy ownership strategies to performance tracking, group purchasing and superior products, there’s nothing you can throw at us that we haven’t already seen—or created a solution for.You can use our pharmacy management services and technology to build a business that will meet the changing needs of your customers and our healthcare system.Turn real-time data into real insights with the help of our secure solutions for single and multi-site pharmacies.Increase pharmacy sales and make a strong first impression with smart pricing, marketing and placement for OTC health and beauty products.Protect your pharmacy from audit-triggering claims that can cost you time, money and the trust of your patients.",
+      "para2": "We’re an impact-driven organization that touches virtually every aspect of health. Every decision we make is guided by our I 2 CARE and ILEAD principles.We work with biopharma companies, care providers, pharmacies, manufacturers, governments, and others to deliver insights, products and services that make quality care more accessible and affordable.Find the freedom to deliver outstanding patient care with advanced software and systems, from store operations to drug dispensing.Gain access to narrow networks through strategic contracting and increase your pharmacies' efficiencies and tools to remain top pharmacy performers.Serve your patients and your practice at a higher level with services and solutions that support patient engagement."
+    },
+    {
+      "id": 4,
+      "name": "Midwifery",
+      "icon": "/Images/serviceimg4.png",
+      "para1": "We are the pioneers of the Midwifery Model of Care in India, which is holistic, respectful of mother’s wishes, Natural Birth focused, and provides for Continuity of Care for mother and baby. The Midwifery Model of Care is an increasingly preferred option for empowered women who want to take control of their childbirth, and be a partner in the decision making process during her pregnancy, labor, birth and post-partum care for her baby and post birth wellness for herself.The Sanctum® is co-founded by Dr Vijaya Krishnan, who is considered to be the pioneer in introducing Autonomous Midwifery in India. Dr Vijaya is a passionate advocate for the rights of women to make informed choices about their own birth. Since founding The Sanctum has seen more than 1500 babies born in a loving environment to parents, supported by an empatheric team of care givers.",
+      "para2": " Low risk women form 85% of our mothers because, in The Sanctum, they find the answer to their desire for a positive, respective and safe environment.  Women with complex needs, VBACs ( Vaginal Birth after Previous Cesarean) also find our pioneering Collaborative Model of Care a safe alternative to traditional hospital care because of the round the clock presence of our team of OB/Gyn team led by Dr. Jayanthi Reddy, MD., DNB., DGO. Dr. Vijaya Krishnan has been a Thought Leader and relentless Campaigner for positive change in birth practices prevelant in the medical system. Learn more about Dr Vijaya Krishnan here.Complimenting Sanctum is our Wellness initiative, WellMom by Healthy Mother. Under WellMom, we provide a host of wellness services such as Prenatal Yoga, Prenatal and Postnatal Massage, Postnatal Weight Loss program, and Postpartum Counseling. We are India’s most highly valued provider of official Lamaze Childbirth classes for expecting couples, under license from Lamaze International, USA. "
+    },
+    {
+      "id": 5,
+      "name": "Nursing",
+      "icon": "/Images/serviceimg5.jpg",
+      "para1": "Home Nursing Service encompasses a wide range of healthcare services that can be easily administered at your home. Nurse for home care service are usually cheaper than hospitals and nursing homes, while being just as effective as the medical care offered in a hospital or nursing home. An in-home nursing service offers personalized nursing care at home as offered in a typical hospital while being more compassionate towards the patient and gets integrated into the patient’s family and develops an emotional bond with the patient and their family.The services offered by home care nursing are provided by registered nurses, physiotherapists and occupational therapists among others. And as such you need not worry on the quality of service offered by the home nurse.Long term nurses at home provide nursing services for 12-24 hours. Long term nursing care is a comprehensive range of medical, physical and surgical care to meet the physical, social and emotional needs of people who are chronically ill or disabled.",
+      "para2": "In the past, the phrases In-Home Care, Home Care and Home Health Care were used interchangeably. Today however, people have developed a better understanding towards Home Health Care or In-Home nursing service which is basically skilled nursing care whereas the term In-Home Care refers to non-medical care services like personal care and companionship and supervision.You can get 24 hour nurse care at home with Portea at very affordable prices. The nurses will help with all medical and support care needed for the patient in the familiar environment of the home, helping the patient get well better and faster.The main goal of Home Nursing service is to treat an illness or injury. The home nursing services usually entails wound care for pressure sores or surgical wound, patient and care – giver education, Intravenous or nutrition therapy, injections, rehabilitation therapies and monitoring serious illness and unstable health status."
+    },
+    {
+      "id": 6,
+      "name": "Optometry",
+      "icon": "/Images/serviceimg6.jpg",
+      "para1": "Why it works: The unique aspects of this website are the very creative and attention-grabbing visuals, interactive animation effects with animated and non-intrusive popups, smooth transition as visitors or patients scroll down the website page, creative storytelling that leads to a call-to-action at the bottom.Why it works: Stylish and minimal content and design elements, subtle scroll animation effect, super high contrasting text to background, large heading text and readable content text, high-quality images of quality eye care products.Why it works: Clean and crisp fonts, light and airy website feel, awesome use of white space providing focus to content, detailed and creative product pages of prescription glasses and contact lenses, use of quality images of eye care services, full-blown and detailed footer providing access to every page in this best optometry website.",
+      "para2": "Why it works: Stylish and sharp, well-defined sections, subtle but eye-catching animation effects, consistent styling, use of striking color scheme, use of sharp and professional-looking fonts, unique and creative inner pages.Why it works: This optometry website is properly themed as “smart” which is evident in the semi-futuristic feel that the images and fonts provide; the alternating light and dark color scheme add interest to new patients and other eye care professionals, and the use of partner and brand logos together with membership logos will let them gain access to the trust of the patients.Why it Works: Use of actual pictures that convey the practice of professionalism by eye care specialists, social media proof in the form of patient testimonials with Instagram photos and a clean association with well-established brand logos create and build trust, a clean contact information section near the footer.Why it works: Stylish and modern optometry website, short but concise. Consistent and professional use of colors that give life to the website, rounded and easy to read fonts, non-standard placement of navigation links, creative overall but still provides a professional feel."
+    },
+    {
+      "id": 7,
+      "name": "Audiology",
+      "icon": "/Images/serviceimg7.png",
+      "para1": "Audiology services are generally covered as “other diagnostic tests” under section 1861(s)(3) of the Social Security Act and payable under the Physician Fee Schedule (PFS). Audiology services furnished to an outpatient of a hospital are covered as “diagnostic services” under section 1861(s)(2)(C) and payable under the hospital Outpatient Prospective Payment System (OPPS). If you have difficulty communicating with your contractor, use the CMS Regional Offices' web page to identify the CMS Regional Office that services your area of operations and use the  email address to request assistance.",
+      "para2": "A physician order is required for audiology services in all settings with the exception of such diagnostic tests for non-acute hearing conditions personally furnished by audiologists that may be directly accessed by beneficiaries, once every 12 months, per beneficiary.  This new policy is effective for dates of service on or after January 1, 2023.  Coverage for audiology services is determined by the reason the tests are ordered or directly accessed, as appropriate, rather than by the patient’s diagnosis or condition.If you have difficulty communicating with your contractor, use the CMS Regional Offices' web page to identify the CMS Regional Office that services your area of operations and use the  email address to request assistance."
+    },
+    {
+      "id": 8,
+      "name": "Psychology",
+      "icon": "/Images/serviceimg8.png",
+      "para1": "Psychological Services publishes high-quality data-based articles on the broad range of psychological services delivered in organized care settings. Organized care settings refer to jails, prisons, courts, Indian Health Service, the military, Department of Veterans Affairs, public university clinics, training hospitals, state and community mental health hospitals and other public service settings.",
+      "para2": "Psychological Services encourages submission of papers that focus on broad issues related to psychotherapy outcomes, evaluations of psychological service programs and systems, and public policy analyses. Additionally, the journal focuses on broader public health issues where both community-based prevention and clinically-based interventions are used to target health and social disparities in order to bring about population-level change (e.g., homelessness, suicide, healthcare access, medical diagnoses). Submissions which outline evaluations of community-based strategies to address public health concerns (e.g., community partnership efforts, system-wide disease prevention strategies, health communication campaigns) are welcomed."
+    },
+    {
+      "id": 9,
+      "name": "Occupational",
+      "icon": "/Images/serviceimg9.jpg",
+      "para1": "Overall employment in architecture and engineering occupations is projected to grow faster than the average for all occupations from 2022 to 2032. About 188,000 openings are projected each year, on average, in these occupations due to employment growth and the need to replace workers who leave the occupations permanently.BLS employment projections, wage, and other data for related occupations not shown in the following table are available on the Data for Occupations Not Covered in Detail page. Information highlighting physical demands, cognitive and mental requirements, and other qualifications for workers in this group are available in a BLS Occupational Requirements Survey (ORS) profile.Graphic designers create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers.Industrial designers combine art, business, and engineering to develop the concepts for manufactured products.",
+      "para2": "Interior designers make indoor spaces functional, safe, and beautiful by determining space requirements and selecting essential and decorative items.Art directors are responsible for the visual style and images in magazines, newspapers, product packaging, and movie and television productions.Craft and fine artists use a variety of materials and techniques to create art for sale and exhibition.Community health workers promote wellness by helping people adopt healthy behaviors. They implement programs and advocate for people who may have limited access to health resources and social services.Marriage and family therapists help people manage and overcome problems with family and other relationships."
+    },
+    {
+      "id": 10,
+      "name": "Athletic",
+      "icon": "/Images/serviceimg10.jpg",
+      "para1": "The Athletics Federation of India is the apex body for running and managing athletics in India and affiliated to the World Athletics, AAA and Indian Olympic Association. The AFI has as many as 32 affiliated state units and institutional units. The AFI came into existence in 1946 and the federation organises the National Championships, trains the Indian Athletics National Campers, selects the Indian Athletics Teams for various international competitions, including the Olympics, Asian Games, CWG,  World Championships, Asian Championships and other international meets, conducts the National Championships for various age categories.Besides, the AFI conducts international and national championships and various meets to promote the sport and popularise it amongst the masses and make athletics commercially attractive for the further growth of the athlete and the sport. The federation also supervises and assists its state units in their activities, plans and sets up special coaching camps, coaches training and takes initiatives for development programme and grass root promotion of athletics in India.",
+      "para2": "Indian athletics has a rich heritage and an enviable track record in more than 75 years of its existence. The sport has contributed the bulk of the medal haul for the Indian contingent at the Asian Games since 1951. Out of a total of 534 medals won by India, athletics leads the contribution with 219 medals, including 70 gold medals, 73 silver and 76 bronze respectively.Since the 1900 Olympics Games held in Paris where an Indian, Norman Pritchard notched up two silver in the 200m race and 200m hurdles events, Indian athletics has been constantly trying to raise the bar and produced hundreds of international medallists and path-breaking performances."
+    },
+    {
+      "id": "11",
+      "name": "myservice",
+      "icon": "C:\\fakepath\\service11.jpg",
+      "para1": "Geology (from Ancient Greek γῆ (gê) 'earth', and λoγία (-logía) 'study of, discourse')[1][2] is a branch of natural science concerned with the Earth and other astronomical objects, the rocks of which it is composed, and the processes by which they change over time.[3] Modern geology significantly overlaps all other Earth sciences, including hydrology. It is integrated with Earth system science and planetary science.  Geology describes the structure of the Earth on and beneath its surface and the processes that have shaped that structure. Geologists study the mineralogical composition of rocks in order to get insight into their history of formation. Geology determines the relative ages of rocks found at a given location; geochemistry (a branch of geology) determines their absolute ages.[4] By combining various petrological, crystallographic, and paleontological tools, geologists are able to chronicle the geological history of the Earth as a whole. One aspect is to demonstrate the age of the Earth. Geology provides evidence for plate tectonics, the evolutionary history of life, and the Earth's past climates.",
+      "para2": "Geologists broadly study the properties and processes of Earth and other terrestrial planets. Geologists use a wide variety of methods to understand the Earth's structure and evolution, including fieldwork, rock description, geophysical techniques, chemical analysis, physical experiments, and numerical modelling. In practical terms, geology is important for mineral and hydrocarbon exploration and exploitation, evaluating water resources, understanding natural hazards, remediating environmental problems, and providing insights into past climate change. Geology is a major academic discipline, and it is central to geological engineering and plays an important role in geotechnical engineering."
+    },
+    {
+      "id": "12",
+      "name": "Mitali b",
+      "icon": "",
+      "para1": "thytr",
+      "para2": "thrth"
+    }
+  ],
+  "enquiry": [
+    {
+      "id": "101",
+      "name": "Mitali Bhavsar",
+      "phone": "656",
+      "email": "mitali@gmail.com",
+      "subject": "",
+      "message": ""
+    },
+    {
+      "id": "2",
+      "name": "Anand",
+      "phone": "567",
+      "email": "anan@gmail.com",
+      "subject": "",
+      "message": ""
+    }
+  ],
+  "bookService": [
+    {
+      "id": "1",
+      "name": "Mitali Bhavsar",
+      "phone": "1545",
+      "email": "mitali@gmail.com",
+      "message": [],
+      "subject": []
+    },
+    {
+      "id": "6",
+      "name": "sds",
+      "phone": "324",
+      "email": "mitali@gmail.com",
+      "subject": [],
+      "message": []
+    }
+  ],
+  "contactus": [
+  
+    {
+      "id": "101",
+      "name": "Mitali Bhavsar",
+      "phone": "545",
+      "email": "mitali@gmail.com",
+      "subject": [],
+      "message": []
+     
+    },
+    {
+      "id": "102",
+      "name": "Mitali Bhavsar",
+      "phone": "124786",
+      "email": "mitali@gmail.com",
+      "subject": [],
+      "message": []
+    },
+    {
+      "id": "110",
+      "name": "cdd",
+      "phone": "45",
+      "email": "mitali@gmail.com",
+      "subject": [],
+      "message": []
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "name": "Medicine",
+      "offer": "25% OFF"
+    },
+    {
+      "id": 2,
+      "name": "Dentistry",
+      "offer": "20% OFF"
+    },
+    {
+      "id": 3,
+      "name": "Pharmacy",
+      "offer": "15% OFF"
+    },
+    {
+      "id": 4,
+      "name": "Midwifery",
+      "offer": "20% OFF"
+    },
+    {
+      "id": 5,
+      "name": "Nursing",
+      "offer": "10% OFF"
+    },
+    {
+      "id": 6,
+      "name": "Optometry",
+      "offer": "15% OFF"
+    },
+    {
+      "id": 7,
+      "name": "Audiology",
+      "offer": "20% OFF"
+    },
+    {
+      "id": 8,
+      "name": "Psychology",
+      "offer": "30% OFF"
+    },
+    {
+      "id": 9,
+      "name": "Occupational",
+      "offer": "25% OFF"
+    },
+    {
+      "id": 10,
+      "name": "Athletic",
+      "offer": "20% OFF"
+    }
+  ]
+}
