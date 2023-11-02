@@ -7,7 +7,7 @@ import useHomeGetData from "./HomeGetData";
 const AllServiceFile = () => {
   const { sno } = useParams();
 
-  const testimonial = useHomeGetData("http://localhost:4000/testimonial");
+  const testimonial = useHomeGetData("/testimonial");
 
   const [data, setData] = useState("");
   const [id, setId] = useState("");
