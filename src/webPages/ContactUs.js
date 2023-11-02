@@ -10,7 +10,7 @@ const ContactUs = () => {
   const [message, setMessage] = useState([]);
   const submitHandler = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:4000/contactus", { id, name, phone, email, subject, message })
+    axios.post("https://ehealthcareserviceappdata.onrender.com/contactus", { id, name, phone, email, subject, message })
       .then((res) => {
         alert("We will contact you soon.Thank you.")
         setId('');
