@@ -9,7 +9,7 @@ const EditTestimonialDataForm = () => {
     const {sno} = useParams();
     const navigate = useNavigate();
 useEffect (()=>{
-    axios.get(`http://localhost:4000/testimonial/${sno}`)
+    axios.get(`https://ehealthcareserviceappdata.onrender.com/testimonial/${sno}`)
     .then((res)=>{
         setId (res.data.id);
         setName (res.data.name);
@@ -21,7 +21,7 @@ useEffect (()=>{
 },[sno])
 const updateData =(e)=>{
     e.preventDefault();
-    axios.put(`http://localhost:4000/testimonial/${id}`,{id,name,comment})
+    axios.put(`https://ehealthcareserviceappdata.onrender.com/testimonial/${id}`,{id,name,comment})
     .then((res)=>{
         alert('Data is updated Successfully.');
         navigate('/admindashboard/edittestimonialdata')

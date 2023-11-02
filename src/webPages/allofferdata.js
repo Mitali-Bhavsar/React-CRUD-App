@@ -4,7 +4,7 @@ import axios from 'axios';
 const AllOfferData = () => {
     const [offer, setOffer] = useState([]);
     useEffect(()=>{
-        axios.get("http://localhost:4000/offers")
+        axios.get("https://ehealthcareserviceappdata.onrender.com/offers")
         .then((res)=>{
             setOffer(res.data);
         })

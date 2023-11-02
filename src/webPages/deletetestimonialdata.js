@@ -4,7 +4,7 @@ import axios from 'axios';
 const DeleteTestimonialData = () => {
     const[testimonial,setTestmonial] = useState([]);
     useEffect(()=>{
-        axios.get("http://localhost:4000/testimonial")
+        axios.get("https://ehealthcareserviceappdata.onrender.com/testimonial")
         .then((res)=>{
             setTestmonial(res.data)
         })
@@ -13,7 +13,7 @@ const DeleteTestimonialData = () => {
         })
     })
     const deleteData =(sid) =>{
-        axios.delete(`http://localhost:4000/testimonial/${sid}`)
+        axios.delete(`https://ehealthcareserviceappdata.onrender.com/testimonial/${sid}`)
         .then((ers)=>{
             alert("Data is deleted.")
         })

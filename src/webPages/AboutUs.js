@@ -5,7 +5,7 @@ import "../JS/main.js";
 import Marquee from "react-fast-marquee";
 
 const AboutUs = () => {
-  const offers = useHomeGetData("http://localhost:4000/offers");
+  const offers = useHomeGetData("https://ehealthcareserviceappdata.onrender.com/offers");
   return (
     <div>
       {/*<!--------background images start--------->*/}

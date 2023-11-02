@@ -4,7 +4,7 @@ import axios from 'axios';
 const AllBookServiceData = () => {
     const [contact, setContact] = useState([]);
     useEffect(()=>{
-        axios.get("http://localhost:4000/bookService")
+        axios.get("https://ehealthcareserviceappdata.onrender.com/bookService")
         .then((res)=>{
             setContact(res.data);
         })

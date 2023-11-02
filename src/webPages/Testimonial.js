@@ -2,7 +2,7 @@ import React from 'react';
 import useHomeGetData from "./HomeGetData";
 
 const Testimonial = () => {
-  const testimonial = useHomeGetData("http://localhost:4000/testimonial");
+  const testimonial = useHomeGetData("https://ehealthcareserviceappdata.onrender.com/testimonial");
 
   
   return (

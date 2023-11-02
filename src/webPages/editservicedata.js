@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom'
 const EditServiceData = () => {
     const [service,setService] = useState([]);
     useEffect(()=>{
-        axios.get("http://localhost:4000/services")
+        axios.get("https://ehealthcareserviceappdata.onrender.com/services")
         .then((res)=>{
             setService(res.data)
         })

@@ -11,7 +11,7 @@ const EditServiceDataForm = () => {
     const {sno} = useParams();
     const navigate = useNavigate();
 useEffect (()=>{
-    axios.get(`http://localhost:4000/services/${sno}`)
+    axios.get(`https://ehealthcareserviceappdata.onrender.com/services/${sno}`)
     .then((res)=>{
         setId (res.data.id);
         setName (res.data.name);
@@ -25,7 +25,7 @@ useEffect (()=>{
 },[sno])
 const updateData =(e)=>{
     e.preventDefault();
-    axios.put(`http://localhost:4000/services/${id}`,{id,name,icon,para1,para2})
+    axios.put(`https://ehealthcareserviceappdata.onrender.com/services/${id}`,{id,name,icon,para1,para2})
     .then((res)=>{
         alert('Data is updated Successfully.');
         navigate('/admindashboard/editservicedata')

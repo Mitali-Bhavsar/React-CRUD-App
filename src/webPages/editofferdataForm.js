@@ -9,7 +9,7 @@ const EditOfferDataForm = () => {
     const {sno} = useParams();
     const navigate = useNavigate();
 useEffect (()=>{
-    axios.get(`http://localhost:4000/offers/${sno}`)
+    axios.get(`https://ehealthcareserviceappdata.onrender.com/offers/${sno}`)
     .then((res)=>{
         setId (res.data.id);
         setName (res.data.name);
@@ -21,7 +21,7 @@ useEffect (()=>{
 },[sno])
 const updateData =(e)=>{
     e.preventDefault();
-    axios.put(`http://localhost:4000/offers/${id}`,{id,name,offer})
+    axios.put(`https://ehealthcareserviceappdata.onrender.com/offers/${id}`,{id,name,offer})
     .then((res)=>{
         alert('Data is updated Successfully.');
         navigate('/admindashboard/editofferdata')

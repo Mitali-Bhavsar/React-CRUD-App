@@ -2,7 +2,7 @@ import React from 'react';
 import useHomeGetData from "./HomeGetData";
 
 const Offers = () => {
-  const offers = useHomeGetData("http://localhost:4000/offers");
+  const offers = useHomeGetData("https://ehealthcareserviceappdata.onrender.com/offers");
 
   return (
     <section>
@@ -21,10 +21,10 @@ const Offers = () => {
               return (
                 <div className="sub" key={item.id}>
                   <div className="container-left" >
-                    <p className="speech-left"><h5>{item.name}</h5></p>
+                  <h5><p className="speech-left">{item.name}</p></h5>
                   </div>
                   <div className="container-right">
-                    <p className="speech"><h5>{item.offer}</h5></p>
+                    <h5><p className="speech">{item.offer}</p></h5>
                   </div>
                 </div>
 

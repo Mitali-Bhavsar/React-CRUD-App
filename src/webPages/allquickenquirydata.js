@@ -4,7 +4,7 @@ import axios from 'axios';
 const AllQuickEnquiryData = () => {
     const [contact, setContact] = useState([]);
     useEffect(()=>{
-        axios.get("http://localhost:4000/enquiry")
+        axios.get("https://ehealthcareserviceappdata.onrender.com/enquiry")
         .then((res)=>{
             setContact(res.data);
         })

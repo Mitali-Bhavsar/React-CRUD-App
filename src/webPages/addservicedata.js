@@ -10,7 +10,7 @@ const AddServiceData = () => {
     const [para2,setPara2] = useState('');
 const submitHandler = (e) =>{
     e.preventDefault();
-axios.post("http://localhost:4000/services",{id,name,icon,para1,para2})
+axios.post("https://ehealthcareserviceappdata.onrender.com/services",{id,name,icon,para1,para2})
 .then((res)=>{
     alert("Data is added successfully.")
     setId("");

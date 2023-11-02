@@ -8,7 +8,7 @@ const AddTestimonialData = () => {
    
 const submitHandler = (e) =>{
     e.preventDefault();
-axios.post("http://localhost:4000/testimonial",{id,name,comment})
+axios.post("https://ehealthcareserviceappdata.onrender.com/testimonial",{id,name,comment})
 .then((res)=>{
     alert("Data is added successfully.")
     setId("");

@@ -4,7 +4,7 @@ import axios from 'axios';
 const DeleteServiceData = () => {
     const[service,setService] = useState([]);
     useEffect(()=>{
-        axios.get("http://localhost:4000/services")
+        axios.get("https://ehealthcareserviceappdata.onrender.com/services")
         .then((res)=>{
             setService(res.data)
         })
@@ -13,7 +13,7 @@ const DeleteServiceData = () => {
         })
     })
     const deleteData =(sid) =>{
-        axios.delete(`http://localhost:4000/services/${sid}`)
+        axios.delete(`https://ehealthcareserviceappdata.onrender.com/services/${sid}`)
         .then((ers)=>{
             alert("Data is deleted.")
         })

@@ -7,7 +7,7 @@ import useHomeGetData from "./HomeGetData";
 const AllServiceFile = () => {
   const { sno } = useParams();
 
-  const testimonial = useHomeGetData("http://localhost:4000/testimonial");
+  const testimonial = useHomeGetData("https://ehealthcareserviceappdata.onrender.com/testimonial");
 
   const [data, setData] = useState("");
   const [id, setId] = useState("");
@@ -17,7 +17,7 @@ const AllServiceFile = () => {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-  axios.get(`http://localhost:4000/services/${sno}`)
+  axios.get(`https://ehealthcareserviceappdata.onrender.com/services/${sno}`)
     .then((res => {
       setData(res.data);
     }))
@@ -27,7 +27,7 @@ const AllServiceFile = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:4000/enquiry", { id,name, phone, email,subject, message })
+    axios.post("https://ehealthcareserviceappdata.onrender.com/enquiry", { id,name, phone, email,subject, message })
       .then((res) => {
         alert("We Will Contact You Soon.Thank You.")
         setName('');

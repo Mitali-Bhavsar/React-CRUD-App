@@ -4,7 +4,7 @@ import axios from 'axios';
 const DeleteOfferData = () => {
     const[offer,setOffer] = useState([]);
     useEffect(()=>{
-        axios.get("http://localhost:4000/offers")
+        axios.get("https://ehealthcareserviceappdata.onrender.com/offers")
         .then((res)=>{
             setOffer(res.data)
         })
@@ -13,7 +13,7 @@ const DeleteOfferData = () => {
         })
     })
     const deleteData =(sid) =>{
-        axios.delete(`http://localhost:4000/offers/${sid}`)
+        axios.delete(`https://ehealthcareserviceappdata.onrender.com/offers/${sid}`)
         .then((ers)=>{
             alert("Data is deleted.")
         })

@@ -6,7 +6,7 @@ import "../Styles/style.css";
 import useHomeGetData from "./HomeGetData";
 
 const Footer = () => {
-    const service = useHomeGetData("http://localhost:4000/services");
+    const service = useHomeGetData("https://ehealthcareserviceappdata.onrender.com/services");
   return (
     <footer>
   <div id="topfooter">

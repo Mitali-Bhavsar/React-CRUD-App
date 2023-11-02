@@ -11,7 +11,7 @@ const BookService = () => {
   
   const submitHandler =(e)=>{
     e.preventDefault();
-    axios.post("http://localhost:4000/bookService",{id,name,phone,email,subject,message})
+    axios.post("https://ehealthcareserviceappdata.onrender.com/bookService",{id,name,phone,email,subject,message})
     .then((res)=>{
       alert("Service booked.")
 

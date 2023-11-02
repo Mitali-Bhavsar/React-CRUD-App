@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom'
 const EditTestimonialData = () => {
     const [testimonial,setTestimonial] = useState([]);
     useEffect(()=>{
-        axios.get("http://localhost:4000/testimonial")
+        axios.get("https://ehealthcareserviceappdata.onrender.com/testimonial")
         .then((res)=>{
             setTestimonial(res.data)
         })

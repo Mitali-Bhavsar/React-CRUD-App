@@ -8,7 +8,7 @@ const AddOfferData = () => {
    
 const submitHandler = (e) =>{
     e.preventDefault();
-axios.post("http://localhost:4000/offers",{id,name,offer})
+axios.post("https://ehealthcareserviceappdata.onrender.com/offers",{id,name,offer})
 .then((res)=>{
     alert("Data is added successfully.")
     setId("");

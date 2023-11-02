@@ -3,7 +3,7 @@ import useHomeGetData from "./HomeGetData";
 import { NavLink } from 'react-router-dom';
 
 const Services = () => {
-  const service = useHomeGetData("http://localhost:4000/services");
+  const service = useHomeGetData("https://ehealthcareserviceappdata.onrender.com/services");
   return (
     <div>
       {/* <!--------services start--------->*/}
