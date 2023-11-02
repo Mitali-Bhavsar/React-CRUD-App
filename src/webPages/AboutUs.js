@@ -2,6 +2,7 @@ import React from 'react';
 import bimg from '../Images/bannerImage.png';
 import useHomeGetData from "./HomeGetData";
 import "../JS/main.js";
+import Marquee from "react-fast-marquee";
 
 const AboutUs = () => {
   const offers = useHomeGetData("http://localhost:4000/offers");
@@ -31,9 +32,9 @@ const AboutUs = () => {
                   return (
                     <div className="marquee" key={item.id}>
                        
-                       <marquee scrollamount="7" direction="left">
+                       <Marquee scrollamount="7" direction="left">
                     <p className=''>{item.name}{item.offer}</p>
-                    </marquee>
+                    </Marquee>
                  </div>
                 
                   )

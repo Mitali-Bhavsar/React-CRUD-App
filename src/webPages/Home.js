@@ -4,6 +4,8 @@ import img1 from '../Images/Image1.png';
 import img2 from '../Images/Image2.png';
 import useHomeGetData from "./HomeGetData";
 import { NavLink } from 'react-router-dom';
+import Marquee from "react-fast-marquee";
+
 const Home = () => {
   const testimonial = useHomeGetData("http://localhost:4000/testimonial");
   const service = useHomeGetData("http://localhost:4000/services");
@@ -36,9 +38,9 @@ const Home = () => {
                   return (
                     <div className="marquee" key={item.id}>
                        
-                       <marquee  scrollamount="7" direction="left">
+                       <Marquee  scrollamount="7" direction="left">
                     <p className=''>{item.name}{item.offer}</p>
-                    </marquee>
+                    </Marquee>
                  </div>
                 
                   )
