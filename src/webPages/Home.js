@@ -7,9 +7,9 @@ import { NavLink } from 'react-router-dom';
 import Marquee from "react-fast-marquee";
 
 const Home = () => {
-  const testimonial = useHomeGetData("http://localhost:4000/testimonial");
-  const service = useHomeGetData("http://localhost:4000/services");
-  const offers = useHomeGetData("http://localhost:4000/offers");
+  const testimonial = useHomeGetData("https://ehealthcareserviceappdata.onrender.com/testimonial");
+  const service = useHomeGetData("https://ehealthcareserviceappdata.onrender.com/services");
+  const offers = useHomeGetData("https://ehealthcareserviceappdata.onrender.com/offers");
 
 
   return (
