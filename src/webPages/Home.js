@@ -8,7 +8,7 @@ import Marquee from "react-fast-marquee";
 
 const Home = () => {
   const testimonial = useHomeGetData("http://localhost:4000/testimonial");
-  const service = useHomeGetData("http://localhost:4000/services");
+  const service = useHomeGetData("/services");
   const offers = useHomeGetData("http://localhost:4000/offers");
 
 
