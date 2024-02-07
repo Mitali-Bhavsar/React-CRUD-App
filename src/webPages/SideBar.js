@@ -7,7 +7,7 @@ const SideBar = () => {
          <div className='container'>
             <div className='row'>
                 <ul>
-                    <h2>Service</h2>
+                    <h2><span>Service</span></h2>
                     <li>
                         <NavLink to="addservicedata">Add Service</NavLink>
                     </li>
@@ -20,7 +20,7 @@ const SideBar = () => {
                     <li>
                         <NavLink to="allservicedata">Show All Service Data</NavLink>
                     </li>
-                    <h2>Offers</h2>
+                    <h2><span>Offers</span></h2>
                     <li>
                         <NavLink to="addofferdata">Add Offer</NavLink>
                     </li>
@@ -33,7 +33,7 @@ const SideBar = () => {
                     <li>
                         <NavLink to="allofferdata">Show All Offer Data</NavLink>
                     </li>
-                    <h2>Testimonial</h2>
+                    <h2><span>Testimonial</span></h2>
                     <li>
                         <NavLink to="addtestimonialdata">Add Testimonial</NavLink>
                     </li>
@@ -46,7 +46,7 @@ const SideBar = () => {
                     <li>
                         <NavLink to="alltestimonialdata">Show All Testimonial Data</NavLink>
                     </li>
-                    <h2>Others</h2>
+                    <h2><span>Others</span></h2>
                     <li>
                         <NavLink to="allcontactdata">Show All Contact Detail</NavLink>
                     </li>

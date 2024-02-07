@@ -25,7 +25,7 @@ const BookService = () => {
       <div className='container'>
         <div className='row'>
         <div className='row p-3'>
-                    <h3 className='ps-5'><span>Book Service</span></h3>
+                    <h3 className='text-center'><span>Book Service</span></h3>
                   </div>
           <div className='col-md-12'>
           <div className='col-md-6 mb-4 form quickform'>
