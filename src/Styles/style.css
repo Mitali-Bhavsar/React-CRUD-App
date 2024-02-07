@@ -55,7 +55,7 @@ body {
       }
       .different:hover::after{
         width: 50%;
-        left: 40px;
+        left: 29px;
       }
     /*-----header animation end-------*/
 p{
@@ -66,7 +66,7 @@ h2,h3{
 }
 
 nav .nav-item{
-    padding-left:30px;
+    padding-left:20px;
 }
 .f-right{
     float:right;
