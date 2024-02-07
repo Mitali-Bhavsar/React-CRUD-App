@@ -9,7 +9,7 @@ const Testimonial = () => {
     <section>
         <div className='container'>
           <div className='row'>
-            <h2>Patient Testimonials</h2>
+            <h2>Patient<span> Testimonials</span></h2>
             {testimonial.map((item) => {
               return (
 

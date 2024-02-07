@@ -4,15 +4,27 @@ body {
     margin: 0; 
     font-weight: normal; 
     font-style: normal; 
-    font-size: 14px; 
+    font-size: 14px !important; 
     line-height: 1.5;
     color:#000; 
     overflow-x: hidden;
+    }
+    nav ul li {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    p{
+      line-height: 28px;
+      letter-spacing: 0.7px;
     }
     section h2,section h3{
       color:#062da1;
       padding: 15px;
 
+    }
+    h2 span,h3 span{
+      color: rgb(135, 8, 8);
     }
   a {
     text-decoration: none !important;

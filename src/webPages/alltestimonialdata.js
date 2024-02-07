@@ -14,7 +14,7 @@ const AllTestimonialData = () => {
     })
   return (
     <div>
-        <h3>All Testimonials</h3>
+        <h3><span>All Testimonials</span></h3>
         <table className='table'>
             <thead>
                 <tr>

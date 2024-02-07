@@ -30,7 +30,7 @@ const ContactUs = () => {
       <div className='container'>
        
         <div className='row mb-4 d-inline'>
-                  <h3>Contact Us</h3>
+                  <h3><span>Contact Us</span></h3>
                 </div>
                 <div className='row d-flex'>
          

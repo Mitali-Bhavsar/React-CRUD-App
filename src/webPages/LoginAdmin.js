@@ -25,7 +25,7 @@ const LoginAdmin = () => {
                     <div className="col-md-12 py-4 ">
                        
                         <div className="">
-                            <h2 className='ps-500'>Admin Login</h2>
+                            <h2 className='ps-500'><span>Admin Login</span></h2>
                             <ul className="breadcrumb ps-500">
                                 <li className="breadcrumb-item"> <NavLink to="/">Home</NavLink></li>
                                 <li className="breadcrumb-item active text-secondary" >Admin Login</li>
