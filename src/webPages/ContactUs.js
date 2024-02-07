@@ -69,7 +69,7 @@ const ContactUs = () => {
                 </div>
                 <div className="row">
                   <div className="col-lg-7 justify-content-center">
-                    <button type='submit' className="btn btn-secondary btn-lg">Submit</button>
+                    <button type='submit' className="btn btn-info btn-lg">Submit</button>
                   </div>
                 </div>
               </form>

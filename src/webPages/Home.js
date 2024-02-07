@@ -60,10 +60,14 @@ const Home = () => {
                 {service.map((item) => {
                   return (
                     <div key={item.id} className='m-2 b-box'>
+                      
                       <NavLink to={`/allservicefile/${item.id}`}>
+                      <div className='zoomimg'>
                       <img src={item.icon} alt="" />
                       <p className='text-center'>{item.name}</p>
+                      </div>
                       </NavLink>
+                      
                     </div>
                     
                   )
@@ -131,7 +135,7 @@ const Home = () => {
               )
             })}
            <div className='col-md-2 p-2'>
-           <NavLink to ="/testimonial" className='btn btn-success'>Read More</NavLink>
+           <NavLink to ="/testimonial" className='btn btn-info'>Read More</NavLink>
            </div>
           </div>
         </div>

@@ -172,6 +172,14 @@ nav .nav-item{
 .service .b-box{
     border:2px solid rgb(118, 192, 241);
     padding: 10px;
+    
+}
+.service .b-box:hover{
+  border:2px solid rgb(135, 8, 8);
+}
+.zoomimg:hover{
+zoom:1.1;
+color: rgb(135, 8, 8);
 }
 .allservice .row {
   overflow: scroll;
