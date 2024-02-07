@@ -24,7 +24,7 @@ const BookService = () => {
     <section>
       <div className='container'>
         <div className='row'>
-        <div className='row p-3'>
+        <div className='row '>
                     <h3 className='text-center'><span>Book Service</span></h3>
                   </div>
           <div className='col-md-12'>
@@ -32,34 +32,34 @@ const BookService = () => {
           <form onSubmit={submitHandler} className='p-4' >
                   
                   <div className="row">
-                    <div className="col-lg-12 mb-4">
+                    <div className="col-lg-12 mb-3">
                       <input type="text" className="form-control" name="id" placeholder="Id" required value={id} onChange={(e) => { setId(e.target.value) }} />
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-lg-12 mb-4">
+                    <div className="col-lg-12 mb-3">
                       <input type="text" className="form-control" name="name" placeholder="Name" required value={name} onChange={(e) => { setName(e.target.value) }} />
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-lg-12  mb-4">
+                    <div className="col-lg-12  mb-3">
                       <input type="tel" className="form-control" name="phone" placeholder="Phone No." required value={phone} onChange={(e) => { setPhone(e.target.value) }} />
                     </div>
                   </div>
 
                   <div className="row ">
 
-                    <div className="col-lg-12 mb-4">
+                    <div className="col-lg-12 mb-3">
                       <input type="email" className="form-control" name="email" placeholder="Email" required value={email} onChange={(e) => { setEmail(e.target.value) }} />
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-lg-12 mb-4">
+                    <div className="col-lg-12 mb-3">
                       <input type="text" className="form-control" name="subject" placeholder="Subject" value={subject} onChange={(e) => { setSubject(e.target.value) }} />
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-lg-12 mb-4">
+                    <div className="col-lg-12 mb-3">
                       <textarea name="message" className="form-control" rows="4" placeholder="Message" value={message} onChange={(e) => { setMessage(e.target.value) }}></textarea>
                     </div>
                   </div>

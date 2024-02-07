@@ -49,7 +49,7 @@ const AboutUs = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-md-12'>
-              <h2><span>About Us</span></h2>
+              <h3><span>About Us</span></h3>
               <p>EHealthcare partners with hospital leadership, CEOs, marketing executives, and key physicians to develop robust marketing strategies. From planning and execution to tracking and optimizing,
                 we create marketing that generates awareness, builds brands, and ethically attracts (and retains) high reimbursing service-line cases. Our team has deep expertise in marketing virtually every high-priority
                 hospital service line, including oncology, orthopaedic surgery, primary care, urgent care, emergency department, bariatric surgery, obstetrics, fertility, cardiology, otolaryngology, and many more.</p>

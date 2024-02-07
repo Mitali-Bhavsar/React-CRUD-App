@@ -10,7 +10,7 @@ const Offers = () => {
         <div className='row'>
 
 
-          <h2 className='text-center'><span>OFFERS</span></h2>
+          <h3 className='text-center'><span>OFFERS</span></h3>
           <div className="wrapper">
 
             <div className="circle-container">

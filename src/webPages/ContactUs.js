@@ -30,7 +30,7 @@ const ContactUs = () => {
       <div className='container'>
        
         <div className='row mb-4 d-inline'>
-                  <h3><span>Contact Us</span></h3>
+                  <h3 className='p-0'><span>Contact Us</span></h3>
                 </div>
                 <div className='row d-flex'>
          
@@ -75,7 +75,7 @@ const ContactUs = () => {
               </form>
             </div>
             <div className='col-md-4 f-style'>
-              <h6 className="my-4">Reach Us</h6>
+              <h5 className="my-4">Reach Us</h5>
               <p className="mb-0 ">7545 Irvine Center Drive,</p>
               <p className="mb-0">1st Floor Saffron House</p>
               <p className="mb-0">6-10 Kirby Street</p>

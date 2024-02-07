@@ -88,7 +88,7 @@ const Home = () => {
               </figure>
             </div>
             <div className='col-md-8'>
-              <h2>Welcome to<span> EHealthCare</span></h2>
+              <h3>Welcome to<span> EHealthCare</span></h3>
               <p>Our hospital digital marketing agency consultants have spent decades developing
                 unique, data-driven, and proven programs to help hospitals and other medical organizations
                 overcome marketing obstacles, anticipate and respond to hospital marketing trends, and
@@ -123,7 +123,7 @@ const Home = () => {
       <section>
         <div className='container'>
           <div className='row'>
-            <h2 className='pt-0'>Patient<span> Testimonials</span></h2>
+            <h3 className='pt-0'>Patient<span> Testimonials</span></h3>
             {testimonial.slice(0, 3).map((item) => {
               return (
 
