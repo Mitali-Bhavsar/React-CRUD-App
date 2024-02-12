@@ -1,4 +1,4 @@
-body { 
+body,html { 
     font-family: sans-serif; 
     padding: 0; 
     margin: 0; 
@@ -7,8 +7,12 @@ body {
     font-size: 14px !important; 
     line-height: 1.5;
     color:#000; 
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     }
+    .navbar-nav .nav-link.active{
+      color: #801717 !important;
+    }
+    
     nav ul li {
       font-size: 15px;
       font-weight: 600;
@@ -318,7 +322,7 @@ p.speech {
   }
   
   .container-left {
-    width: 340px;
+    width: 400px;
     height: 150px;
     background: linear-gradient(0deg, #212121 75%, transparent 0) repeat-y;
     background-size: 2px 16px ;
@@ -432,4 +436,7 @@ height:550px;
     overflow: scroll;
   }
 }
-  
+  .text-right
+  {
+    float: right;
+  }

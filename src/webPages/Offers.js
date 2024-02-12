@@ -18,85 +18,50 @@ const Offers = () => {
               <div className="circle"></div>
             </div>
             {offers.map((item) => {
-              return (
-                <div className="sub" key={item.id}>
-                  <div className="container-left" >
-                  <h5><p className="speech-left">{item.name}</p></h5>
+             
+              if(item.id%2===0)
+              {
+                return (
+                  <div className="row">
+                   
+                     <div className='sub'>
+                     <div className="col-md-6" >
+                     <div className='text-right container-left'>
+                        <h5 className=""><p className="speech-left">{item.name}<br />{item.offer}</p></h5>
+                      </div>
+                      </div>
+                    <div className="col-md-6">
+                      &nbsp;
+                    </div>
+                    
                   </div>
-                  <div className="container-right">
-                    <h5><p className="speech">{item.offer}</p></h5>
                   </div>
-                </div>
-
-              )
-            })}
-            {/*
-  <div className="circle-container">
-    Dentist Service
-    <div className="circle"></div>
-  </div>
-  <div className="sub">
-    <div className="container-left">
-      <p className="speech-left">15% OFF</p>
-    </div>
-    <div className="container-right"></div>
-  </div>
-  <div className="circle-container">
-    Pharmacy Service
-    <div className="circle"></div>
-  </div>
-  <div className="sub">
-    <div className="container-left"></div>
-    <div className="container-right">
-      <p className="speech">25% OFF</p>
-    </div>
-  </div>
-  <div className="circle-container">
-  MidWifery Service
-    <div className="circle"></div>
-  </div>
-  <div className="sub">
-    <div className="container-left">
-      <p className="speech-left">25% OFF</p>
-    </div>
-    <div className="container-right"></div>
-  </div>
-  <div className="circle-container">
-    Nursing Service
-    <div className="circle"></div>
-  </div>
-  <div className="sub">
-    <div className="container-left"></div>
-    <div className="container-right">
-      <p className="speech">20% OFF</p>
-    </div>
-  </div>
-  <div className="circle-container">
-  Optometry Service
-    <div className="circle"></div>
-  </div>
-  <div className="sub">
-    <div className="container-left">
-      <p className="speech-left">15% OFF</p>
-    </div>
-    <div className="container-right"></div>
-  </div>
-  <div className="circle-container">
-  Audiology Service
-    <div className="circle"></div>
-  </div>
-  <div className="sub">
-    <div className="container-left"></div>
-    <div className="container-right">
-      <p className="speech">30% OFF</p>
-    </div>
-  </div>
   
-  */}
+                )
+              }
+              else{
+                return (
+                  <div className="row">
+                    <div className='sub'>
+                   <div className="col-md-6">
+                      &nbsp;
+                      </div>
+                      <div className="col-md-6">
+                      <div className='container-right'>
+                        <h5 className=""><p className='speech'>{item.name}<br />{item.offer}</p></h5>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+  
+                )
+              }
+            })}
+           
+  </div>
 
           </div>
         </div>
-      </div>
     </section>
 
   )

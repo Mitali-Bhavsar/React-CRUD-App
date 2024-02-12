@@ -33,19 +33,19 @@ const Home = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12 p-0 d-flex">
-           
+            <Marquee  scrollamount="7" direction="left">
               {offers.map((item) => {
                   return (
                     <div className="marquee" key={item.id}>
                        
-                       <Marquee  scrollamount="7" direction="left">
+                       
                     <p className=''>{item.name}{item.offer}</p>
-                    </Marquee>
+                  
                  </div>
                 
                   )
                 })}
-                
+                  </Marquee>
             </div>
           </div>
         </div>
