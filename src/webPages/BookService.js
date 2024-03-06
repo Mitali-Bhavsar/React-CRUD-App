@@ -11,7 +11,7 @@ const BookService = () => {
     
     axios.get('https://ehealthcareserviceappdata.onrender.com/bookService')
     .then((res)=>{
-      console.log(setBsId(res.data))
+      setBsId(res.data)
     })
     .catch((err)=>{
       console.log(err);
@@ -31,7 +31,13 @@ const BookService = () => {
     e.preventDefault();
     axios.post("https://ehealthcareserviceappdata.onrender.com/bookService",{id,name,phone,email,subject,message})
     .then((res)=>{
-      alert("Service booked.")
+      alert("Service booked.");
+      setId('');
+      setName('');
+      setPhone('');
+      setEmail('');
+      setMessage('');
+      setSubject('');
 
     })
     .catch((err)=>{

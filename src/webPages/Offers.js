@@ -22,7 +22,7 @@ const Offers = () => {
               if(item.id%2===0)
               {
                 return (
-                  <div className="row">
+                  <div className="row" key={item.id}>
                    
                      <div className='sub'>
                      <div className="col-md-6" >
@@ -41,7 +41,7 @@ const Offers = () => {
               }
               else{
                 return (
-                  <div className="row">
+                  <div className="row"  key={item.id}>
                     <div className='sub'>
                    <div className="col-md-6">
                       &nbsp;

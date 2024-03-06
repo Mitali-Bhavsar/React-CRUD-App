@@ -39,7 +39,7 @@ const Home = () => {
                     <div className="marquee" key={item.id}>
                        
                        
-                    <p className=''>{item.name}{item.offer}</p>
+                    <p className=''>{item.name}{item.offer}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                   
                  </div>
                 
