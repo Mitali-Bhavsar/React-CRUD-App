@@ -224,6 +224,7 @@ color: rgb(135, 8, 8);
     height:175px;
 }
 .quickform{
+  height:540px;
     box-shadow: 1px 1px 8px 0px;
     border-radius: 20px;
 }
