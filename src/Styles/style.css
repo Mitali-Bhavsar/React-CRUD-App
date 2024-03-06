@@ -121,6 +121,14 @@ nav .nav-item{
   .ms-n15{
     margin-left: -15px;
   }
+  .bg-quickForm{
+    background-color: #801717;
+    border-top-right-radius: 29px;
+    border-bottom-left-radius: 29px;
+  }
+  .txt-col{
+    color: #fff;
+  }
 #BannerImage img{
     width:100%;
     height:360px;

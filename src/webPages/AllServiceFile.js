@@ -64,17 +64,17 @@ const AllServiceFile = () => {
         <div className='container'>
           <div className='row d-flex'>
             
-              <div className='col-md-8'>
+              <div className='col-md-8 pe-5'>
                 <div>
                   <h2>{data.name}</h2>
                   <p>{data.para1}</p>
                   <p>{data.para2}</p>
                 </div>
               </div>
-              <div className='col-md-4 col-sm-12 quickform'>
+              <div className='col-md-4 col-sm-12 mt-5 quickform'>
                 <form onSubmit={submitHandler} className='p-3' >
-                  <div className='row mb-4'>
-                    <h3 className='p-0'>Quick Enquiry</h3>
+                  <div className='row mb-4 bg-quickForm'>
+                    <h3 className='p-0 text-center txt-col'>Quick Enquiry</h3>
                   </div>
                   <div className="row">
                     <div className="col-lg-12 mb-4">
