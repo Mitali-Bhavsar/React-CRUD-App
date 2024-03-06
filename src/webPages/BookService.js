@@ -1,22 +1,22 @@
 
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 
 
 const BookService = () => {
  
   //get book service data start//
-  const [bsId, setBsId] = useState([]);
-  useEffect(()=>{
+  // const [bsId, setBsId] = useState([]);
+  // useEffect(()=>{
     
-    axios.get('https://ehealthcareserviceappdata.onrender.com/bookService')
-    .then((res)=>{
-      setBsId(res.data)
-    })
-    .catch((err)=>{
-      console.log(err);
-    })
-  },[])
+  //   axios.get('https://ehealthcareserviceappdata.onrender.com/bookService')
+  //   .then((res)=>{
+  //     setBsId(res.data)
+  //   })
+  //   .catch((err)=>{
+  //     console.log(err);
+  //   })
+  // },[])
  
   //get book service data end//
 
@@ -46,12 +46,6 @@ const BookService = () => {
   }
   return (
     <section>
-       
-
-
-
-
-
       <div className='container'>
         <div className='row'>
         <div className='row '>
