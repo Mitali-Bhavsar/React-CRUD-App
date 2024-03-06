@@ -121,7 +121,7 @@ const AllServiceFile = () => {
         </div>
       </section>
       <section className='testimonial'>
-      <h2 className='p-3'>Patient Testimonials</h2>
+      <h2 className='ps-3 ms-5'>Patient Testimonials</h2>
         <div className='container'>
           <div className='row'>
             {testimonial.slice(0, 3).map((item) => {

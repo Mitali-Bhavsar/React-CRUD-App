@@ -22,18 +22,19 @@ const Footer = () => {
               </div>
               <div className="col-xl-3">
                   <h6 className="my-4 text-start">Services</h6>
-                 
-                    <table>
+                    <div className='col2'>
+                    <table className='ms-n15'>
                         <tbody>
                 {service.map((item) => {
                   return (
                         <tr key={item.id} >
-                        <td><NavLink to={`/allservicefile/${item.id}`}>{item.name}</NavLink></td>
+                        <td><NavLink to={`/allservicefile/${item.id}`}  className='text-color'>{item.name}</NavLink></td>
                             </tr>
                   )
                 })}
                </tbody>
                     </table>
+                    </div>
               </div>
               <div className="col-xl-3">
                   <h6 className="my-4">Reach Us</h6>
@@ -46,8 +47,8 @@ const Footer = () => {
               </div>
               <div className="col-xl-3 contact">
                   <h6 className="my-4">Contact Us</h6>
-                  <p className="mb-0"><FontAwesomeIcon icon={faPhone} /><Link to="tel:+(800) 656-0907" className='ms-3'>+(800) 656-0907</Link></p>
-                  <p><FontAwesomeIcon icon={faEnvelope} /><Link to="mailto:info@ehealthcare.com;" className='ms-3'>info@ehealthcare.com</Link></p>
+                  <p className="mb-0"><FontAwesomeIcon icon={faPhone} /><Link to="tel:+(800) 656-0907" className='ms-3 text-color'>+(800) 656-0907</Link></p>
+                  <p><FontAwesomeIcon icon={faEnvelope} /><Link to="mailto:info@ehealthcare.com;" className='ms-3 text-color'>info@ehealthcare.com</Link></p>
                       
               </div>
           </div>

@@ -14,7 +14,7 @@ const Header = () => {
                         <div className='col-md-12 d-flex'>
                             <div className='col-md-2'>
                             <figure className="figure mb-0">
-                                        <img src={img} className={main.hlogo} alt="logo" />
+                            <NavLink to="/"><img src={img} className={main.hlogo} alt="logo" /></NavLink>
                                     </figure>
                             </div>
                             <div className='col-md-10'>
