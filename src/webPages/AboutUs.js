@@ -32,9 +32,15 @@ const AboutUs = () => {
                   return (
                     <div className="marquee" key={item.id}>
                        
-                       <Marquee scrollamount="7" direction="left">
-                    <p className=''>{item.name}{item.offer}</p>
-                    </Marquee>
+                       <Marquee  scrollamount="7" direction="left">
+                          {offers.map((item) => {
+                              return (
+                                <div className="marquee" key={item.id}>
+                                    <p className=''>{item.name}{item.offer}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                </div>
+                              )
+                            })}
+                  </Marquee>
                  </div>
                 
                   )

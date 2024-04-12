@@ -9,7 +9,7 @@ body,html {
     color:#000; 
     overflow-x: hidden !important;
     }
-    NavLink {
+    a {
       cursor: pointer;
     }
 
